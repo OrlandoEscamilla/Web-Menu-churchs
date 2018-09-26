@@ -1,0 +1,1434 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+
+body{
+	background-color: #e9ebee;
+}
+
+.container{
+	width: 810px;
+	height: 790px;
+	background-color: #fff;
+}
+
+.container header{
+width: 100%;
+height: 150px;
+background-color: #e81d25;
+
+}
+/*-------------------------------------------------*/
+header .header_izquierdo{
+	background-color: pink;
+	width: 50%;
+	height: 150px;
+	float: left;
+}
+
+
+
+
+header .header_izquierdo .telefono{
+	background-color: #e81d25;
+	height: 150px;
+	width: 45%;
+	float: left;
+	padding: 20px;
+	padding-right: 0px;
+	color: #fff;
+	font-family: verdana;
+
+}
+
+header .header_izquierdo .telefono .red_social{
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-size: 9px;
+	margin-top: 5px;
+	margin-left: 17px;
+	position: relative;
+}
+
+header .header_izquierdo .telefono .red_social img{
+	width: 25px;
+	position: absolute;
+	top: 0px;
+	left: -15px;
+}
+
+header .header_izquierdo .telefono .red_social #tw{
+	width: 12px;
+	
+	position: absolute;
+	top: 0px;
+	left: -15px;
+}
+
+
+
+header .header_izquierdo .telefono .numero_unico{
+	font-size: 15px;
+	font-weight: bold;
+
+}
+header .header_izquierdo .telefono .numero{
+	font-size: 33px;
+	font-family: 'Secular One', sans-serif;
+
+}
+
+
+
+header .header_izquierdo .sucursales{
+	background-color: #e81d25;
+	height: 150px;
+	width: 55%;
+	padding: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: right;
+	color: #fff;
+	text-align: right;
+}
+
+header .header_izquierdo .sucursales .titulo1{
+font-family: verdana;
+font-size: 10px;
+font-weight: bold;
+}
+
+header .header_izquierdo .sucursales .lugares{
+	font-family: arial;
+	margin-top: 3px;
+	font-size: 10px;
+
+}
+.envia_comentarios{
+margin-top: 10px !important;
+}
+
+/*-------------------------------------------------*/
+header .header_derecho{
+	background-color: orange;
+	width: 50%;
+	height: 150px;
+	float: right;
+}
+
+header .header_derecho .logo{
+	background-color: #e81d25;
+	height: 150px;
+	width: 40%;
+	float: left;
+	position: relative;
+}
+
+header .header_derecho .logo img{
+	width: 72%;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+
+header .header_derecho .eslogan {
+	background-color: #e81d25;
+	width: 60%;
+	
+	float: right;
+	height: 150px;
+	position: relative;
+
+
+}
+
+header .header_derecho .eslogan img{
+	width: 100%;
+	position: absolute;
+	top: 55px;
+	left: 10px;
+}
+
+/*-------------------------------------------------*/
+
+
+
+#message , #message1, #message2, #message3, #message4, #message5, #message6, #message7, #message8, #message9{
+	display: none;
+}
+
+
+
+
+.imagen img{
+	width: 100%;
+}
+
+
+
+.container .izquierdo{
+	
+	width: 50%;
+	height: 850;
+	float: left;
+}
+
+ .container .izquierdo .complementos{
+	text-align: center;
+	color: #e81d25;
+	
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+	letter-spacing: 3px;
+}
+.container .izquierdo .imagen1 img{
+	width: 100%;
+}
+
+.container .izquierdo .imagen2 img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.container .izquierdo .pure{
+	width: 50%;
+	height:150px;
+	font-family: 'Secular One', sans-serif;
+	float: left;
+}
+
+.container .izquierdo .pure_precios{
+	width: 50%;
+	height:150px;
+	
+	float: right;
+}
+
+.pure{
+	padding-left: 25px;
+}
+
+.container .izquierdo .lista{
+font-weight: bold;
+font-family: verdana;
+font-size: 16px;
+margin-top: 10px;
+list-style: none;
+font-family: 'Secular One', sans-serif;
+
+}
+
+.red{
+	color: #e81d25;
+	margin-right: 10px;
+}
+
+.container .izquierdo .lista li{
+	margin-top: 4px;
+}
+
+
+/*-------------------------------------------------*/
+.container .derecho{
+	
+	width: 50%;
+	height: 850;
+	float: right;
+
+}
+.container .derecho .menu{
+	background-color: #fff;
+}
+.container .derecho .menu li{
+	width: 134px;
+	
+	
+	list-style: none;
+	display: inline-block;
+	margin: -1px;
+	padding: 0px;
+	position: relative;
+
+	transition: all 0.2s linear;
+
+    -webkit-transition: all 0.2s linear;
+
+    -moz-transition: all 0.2s linear;
+
+    -o-transition: all 0.2s linear;
+
+}
+
+.container .derecho .menu li:hover{
+	-ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+
+    transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+
+}
+
+
+
+.container_2 li:hover{
+	-ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+
+    transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+
+}
+
+
+.contenedor_cuatro_izquierdo:hover{
+	-ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+
+    transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+}
+
+.contenedor_cuatro_izquierdo{
+
+
+    transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+}
+
+
+
+
+
+.container .derecho .menu li .descripcion{
+	width: 100%;
+	height: 60px;
+
+
+}
+
+
+
+.titulo_spacy{
+	text-align: right;
+	margin-right: 10px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Secular One', sans-serif;
+}
+
+.container .derecho .menu li .descripcion .titulo{
+	text-align: right;
+	margin-right: 30px;
+	margin-top: 15px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.container .derecho .menu li .descripcion .titulo_guacamole{
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 15px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.container .derecho .menu li .descripcion .titulo_fajita{
+	text-align: right;
+	margin-right: 50px;
+	margin-top: 15px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.container .derecho .menu li .descripcion .titulo_deluxe{
+	text-align: right;
+	margin-right: 32px;
+
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.container .derecho .menu li .descripcion .descripcion_texto{
+	text-align: left;
+	margin-right: 10px;
+	float: right;
+	
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 8px;
+	width: 77px;
+}
+
+.container .derecho .menu li .descripcion .descripcion_texto3{
+	text-align: left;
+	margin-right: 10px;
+	float: right;
+	
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 8px;
+	width: 86px;
+}
+
+.container .derecho .menu li .descripcion .descripcion_texto4{
+	text-align: left;
+	margin-right: 10px;
+	float: right;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 8px;
+	width: 80px;
+}
+
+.container .derecho .menu li .descripcion .descripcion_texto5{
+	text-align: left;
+	margin-right: 10px;
+	float: right;
+	
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 8px;
+	width: 90px;
+	position: absolute;
+	top: 35px;
+	right: -11px;
+}
+
+.container .derecho .menu li .descripcion .descripcion_texto6{
+	text-align: left;
+	margin-right: 30px;
+	float: right;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 8px;
+	width: 90px;
+	position: absolute;
+	top: 35px;
+	right: -25px;
+}
+
+.container .derecho .menu li .descripcion .descripcion_texto7{
+	text-align: left;
+	margin-right: 10px;
+	float: right;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 8px;
+	width: 75px;
+}
+
+.container .derecho .menu li .descripcion .descripcion_texto9{
+	text-align: left;
+	margin-right: 10px;
+	float: right;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 8px;
+	width: 60px;
+}
+.container .derecho .menu li img{
+width: 100%;
+height: 120px;
+}
+
+.circulo_paquete1 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     font-family: 'Secular One', sans-serif;
+}
+
+.circulo_paquete2 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     font-family: 'Secular One', sans-serif;
+}
+
+.circulo_paquete3 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 20px;
+     left: 10px;
+     font-family: 'Secular One', sans-serif;
+}
+.circulo_paquete4 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 6px;
+     left: 15px;
+     font-family: 'Secular One', sans-serif;
+}
+.circulo_paquete5 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     font-family: 'Secular One', sans-serif;
+}
+.circulo_paquete6 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 20px;
+     left: 13px;
+     font-family: 'Secular One', sans-serif;
+}
+
+.circulo_paquete7 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     font-family: 'Secular One', sans-serif;
+}
+
+.circulo_paquete8 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 35px;
+     left: 20px;
+     font-family: 'Secular One', sans-serif;
+}
+
+.circulo_paquete9 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     font-family: 'Secular One', sans-serif;
+}
+
+[class*="circulo"] p{
+	font-weight: bold;
+	padding-top: 0px;
+
+}
+
+.precio_menu{
+	position: absolute;
+	font-size: 20px;
+	top: 85px;
+	left: 70px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+}
+
+.precio_menu4{
+	position: absolute;
+	font-size: 20px;
+	top: 66px;
+	left: 70px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+}
+
+.precio_menu8{
+	position: absolute;
+	font-size: 20px;
+	top: 95px;
+	left: 70px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+}
+.precio_menu9{
+	position: absolute;
+	font-size: 20px;
+	top: 80px;
+	left: 70px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+}
+
+
+.titulo_spacy{
+	font-family: 'Secular One', sans-serif;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.descripcion_texto9{
+position: absolute;
+
+width: 80px !important;
+text-align: center;
+top: 20px;
+left: 45px;
+}
+
+.titulo_pechu{
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 15px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	top: -11px;
+	right: 13px;
+	line-height: 15px;
+}
+
+.descripcion_texto4{
+	position: absolute;
+	top: 35px;
+	left: 45px;
+}
+
+
+.pie{
+	width: 100%;
+	height: 45px;
+	background-color: #ce1b1e;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.pie .pie_parrafo{
+	color: #fff;
+	font-size: 10px;
+	font-family: verdana;
+	font-family: 'Secular One', sans-serif;
+
+}
+
+.pie .pie_parrafo span{
+	color: #f4cf1e;
+}
+
+
+
+
+
+
+
+
+.container_2{
+
+	width: 810px;
+	height: 700px;
+	background-color: #fff;
+	margin-top: 210px;
+	position: absolute;
+	top: 600px;
+}
+
+.container_2 .izquierda{
+	
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+
+.container_2 .izquierda .ul_uno li{
+	
+	display: inline-block;
+	width: 134px;
+	margin-right: -2px;
+	height: 150px;
+	position: relative;
+	margin-top: 0px;
+	text-align: center;
+
+	 transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+}
+
+.container_2 .izquierda .ul_uno li img{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.titulos{
+	font-family: 'Secular One', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	
+
+}
+
+.titulos_spicy{
+	font-family: 'Secular One', sans-serif;
+	font-size: 15px;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	line-height: 15px;
+	font-weight: bold;
+	
+
+}
+
+.titulos_bigtex{
+	font-family: 'Secular One', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 30px;
+	position: absolute;
+	top: -18px;
+	
+	text-align: left;
+	
+
+}
+
+.descripcion2{
+
+
+	
+
+
+	font-family: verdana;
+	font-size: 8px;
+	
+	font-weight: bold;
+	position: absolute;
+	left: 30px;
+	text-align: left;
+}
+
+.descripcion2_bigtex{
+	font-family: verdana;
+	font-size: 8px;
+	
+	font-weight: bold;
+	
+	position: absolute;
+
+	left: 30px;
+	text-align: left;
+
+}
+
+.descripcion2_combodeluxe{
+	font-family: verdana;
+	font-size: 8px;
+	font-weight: bold;
+	
+	position: absolute;
+	left: 0px;
+		text-align: left;
+}
+
+
+
+
+.circulos1 {
+     width: 22px;
+     height: 22px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e81d25;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     top: 30px;
+     left: 5px;
+     font-family: 'Secular One', sans-serif;
+}
+
+.precios1{
+	position: absolute;
+	top: 86px;
+	left: 70px;
+	font-family: 'Secular One', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.precios2{
+	position: absolute;
+	top: 27px;
+	left: 50px;
+	 font-family: 'Secular One', sans-serif;
+	 font-size: 20px;
+	 font-weight: bold;
+}
+
+.precios3{
+	position: absolute;
+	top: 45px;
+	left: 85px;
+	 font-family: 'Secular One', sans-serif;
+	 font-size: 20px;
+	 font-weight: bold;
+}
+
+	.dos .principal {
+		margin-top: 20px;
+		background-color: #d10026;
+		text-align: center;
+		padding: 5px;
+		color: #fff;
+		 font-family: 'Secular One', sans-serif;
+		 font-size: 25px;
+		 letter-spacing: 2px;
+	}
+
+	.ul_dos{
+		position: relative;
+		 transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+	}
+
+	.ul_dos .num1{
+		
+		width: 50%;
+		height: 200px;
+		float: left;
+		list-style: none;
+		text-align: center;
+
+		 transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+	}
+
+	.ul_dos .num2{
+		
+		width: 50%;
+		height: 200px;
+		float: right;
+		list-style: none;
+		text-align: center;
+
+		 transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+
+	}
+
+	.ul_dos .num3{
+		
+		width: 50%;
+		height: 200px;
+		float: left;
+		list-style: none;
+		text-align: center;
+		position: relative;
+
+		 transition: all 0.1s linear;
+
+    -webkit-transition: all 0.1s linear;
+
+    -moz-transition: all 0.1s linear;
+
+    -o-transition: all 0.1s linear;
+	}
+
+	.ul_dos .num4{
+		
+		width: 50%;
+		height: 200px;
+		float: right;
+		list-style: none;
+		text-align: center;
+
+	
+
+	}
+
+
+
+
+
+
+	[class*='num'] img{
+		width: 60%;
+	}
+
+.titulos_1pieza{
+	font-family: 'Secular One', sans-serif;
+	font-size: 15px;
+	color: black;
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+ .descripcion3{
+ 	font-family: verdana;
+ 	 font-family: 'Secular One', sans-serif;
+ 	 line-height: 10px;
+ 	font-size: 9px;
+ 	text-align: left;
+ 	margin-left: 40px;
+ }
+
+ .num4 img{
+ 	width: 100%;
+ }
+
+ .precio_niños1{
+ 	position: absolute;
+	top: 80px;
+	left: 110px;
+	font-family: 'Secular One', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+ }
+
+  .precio_niños2{
+ 	position: absolute;
+	top: 80px;
+	right: 60px;
+	font-family: 'Secular One', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+ }
+
+  .precio_niños3{
+ 	position: absolute;
+	top: 88px;
+	right: 60px;
+	font-family: 'Secular One', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+ }
+/*--------------------------------------------------------------------------*/
+.container_2 .derecha{
+	
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.titulo_paquetesfamiliares{
+	font-family: 'Secular One', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #ce1b1e;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+#pollo_complementos{
+	width: 100%;
+}
+.contenedor_dos{
+margin-bottom: 10px;
+
+margin-top: -20px;
+}
+
+.contenedor_tres{
+margin:0 auto;
+width: 350px;
+
+
+}
+
+.contenedor_izquierdo{
+
+width: 43%;
+float: left;
+list-style: none;
+border-bottom: solid 2px #ce1b1e;
+padding-bottom: 10px;
+margin-bottom: 10px;
+
+position: relative;
+}
+
+.contenedor_izquierdo li {
+font-family: verdana;
+font-family: 'Secular One', sans-serif;
+font-weight: bold;
+font-size: 18px;
+margin-top: 20px;
+
+
+}
+
+.contenedor_izquierdo #cruz1 {
+position: absolute;
+top: 20px;
+right: 5px;
+}
+
+.contenedor_izquierdo #cruz2 {
+position: absolute;
+top: 65px;
+right: 5px;
+}
+
+.contenedor_izquierdo #cruz3 {
+position: absolute;
+top: 112px;
+right: 5px;
+}
+
+.contenedor_izquierdo #cruz4 {
+position: absolute;
+top: 158px;
+right: 5px;
+}
+
+
+.contenedor_derecho{
+	
+	width: 57%;
+	float: right;
+	list-style: none;
+	border-bottom: solid 2px #ce1b1e;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	
+	position: relative;
+}
+
+.contenedor_derecho li{
+font-family: verdana;
+font-family: 'Secular One', sans-serif;
+font-size: 10px;
+margin-top: 18px;
+font-weight: bold;
+
+
+}
+
+.parrafo_pie{
+	font-family: 'Secular One', sans-serif;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.contenedor_cuatro_izquierdo{
+	
+	padding-bottom: 10px;
+	width: 50%;
+	text-align: center;
+	float: left;
+	border-right: solid 1px #d10026;
+}
+
+.contenedor_cuatro_izquierdo #pay_manzana{
+	margin: 0 auto;
+	width: 75%;
+}
+
+.titulo_postres{
+	background-color: #d10026;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Secular One', sans-serif;
+	letter-spacing: 2px;
+	color: #fff;
+	font-size: 25px;
+	border-left: solid 1px #fff;
+}
+
+.descripcion_pay p{
+	font-family: 'Secular One', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.descripcion_pay .precio_pay{
+	font-family: 'Secular One', sans-serif;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 0px;
+	font-weight: bold;
+	
+}
+
+.contenedor_cuadro_derecho{
+	
+	width: 50%;
+
+	float: right;
+	text-align: center;
+	
+}
+
+.descripcion_roja{
+	font-family: 'Secular One', sans-serif;
+	font-size: 12px;
+	color: red;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.descripcion_negra{
+	font-family: 'Secular One', sans-serif;
+	font-size: 11px;
+	color: #000;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 10px;
+}
+
+.contenedor_ultimo{
+	width: 100%;
+	
+	
+	margin-top: 95px;
+}
+
+.contenedor_ultimo p{
+	float: left;
+	margin-left: 20px;
+	font-family: 'Secular One', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.contenedor_ultimo span{
+	float:right;
+	margin-right: 20px;
+	font-family: 'Secular One', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.contenedor_dividido{
+	
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 164px;
+
+
+	
+}
+
+.contener_imagen_izquierda{
+	
+	width: 50%;
+	height: 80px;
+	float: left;
+	border-bottom: solid 2px red;
+	position: relative;
+	
+}
+
+.contener_imagen_izquierda{
+	
+	border-bottom: solid 2px red;
+	
+}
+
+.contener_imagen_izquierda img{
+	height: 80px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.contenedor_texto_derecho{
+	
+	width: 50%;
+	height: 80px;
+	float: right;
+	border-bottom: solid 2px red;
+	padding-top: 5px;
+
+}
+
+.contenedor_texto_derecho p{	
+	float: left;
+	font-family: 'Secular One', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.contenedor_texto_derecho span{	
+	float: right;	
+	font-family: 'Secular One', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 4px;
+}
+
+.descripcion_bebidas{
+	
+}
+
+.complementos_precios{
+	font-family: 'Secular One', sans-serif;
+	font-size: 20px;
+	color: #ce1b1e;
+	font-weight: bold;
+}
+
+#precio1{
+	position: absolute;
+	top: 15px;
+	right: 5px;
+}
+
+#precio2{
+	position: absolute;
+	top: 60px;
+	right: 5px;
+}
+
+#precio3{
+	position: absolute;
+	top: 106px;
+	right: 5px;
+}
+
+#precio4{
+	position: absolute;
+	top: 152px;
+	right: 5px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+
+
+.contenedor-dialogo{
+	width: 500px;
+	background-color: #fff;
+	-webkit-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+position: absolute;
+top: 100px;
+left: 150px;
+z-index: 1000;
+display: none;
+
+
+}
+
+.contenedor-dialogo_dos{
+	width: 500px;
+	background-color: #fff;
+	-webkit-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+position: absolute;
+top: 815px;
+left: 150px;
+z-index: 1000;
+display: none;
+
+
+}
+
+ .titulo_nuevo{
+	color: #fff;
+	background-color: #e81d25;
+	padding: 10px;
+	margin-bottom: 0px;
+	font-family: 'Secular One', sans-serif;
+	font-size: 23px;
+}
+
+img{
+	margin-bottom: -15px;
+}
+
+.descripcion_nueva{
+	margin-top: 15px;
+	
+}
+
+
+.descripcion_nueva p {
+	background-color: #fff;
+	color: #e81d25 ;
+	font-weight: bold;
+	font-family: 'Secular One', sans-serif;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.boton{
+	height: 60px;
+	padding:  15px;
+	margin-top: -10px;
+}
+
+.boton button{
+	background-color: #fff;
+	border-radius: 0px;
+	width: 70px;
+	height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	float: right;
+	border: solid 1px gray;
+	cursor: pointer;
+}
+
+.protector{
+	display: none;
+	width: 100%;
+	height: 1520px;
+	background-color: #77787b;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+	opacity: 0.5;
+}
+
+.blur{
+	-webkit-filter: blur(2px);
+}
+
+
+.precio_negro{
+		font-family: 'Secular One', sans-serif !important;
+	font-size: 30px !important;
+	color: black !important;
+	font-weight: bold !important;
+	margin-top: 10px !important;
+}
+
+
+.contenedor_izquierdo li:hover , .contenedor_derecho li:hover {
+		-ms-transform: scale(0.0); /* IE 9 */
+    -webkit-transform: scale(0.0); /* Safari */
+    transform: scale(1);
+    cursor: none;
+}
